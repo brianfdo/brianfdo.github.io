@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  padding-top: 70px; /* Adjust according to navbar height */
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+hr {
+  margin-bottom: 20px;
+}
+
