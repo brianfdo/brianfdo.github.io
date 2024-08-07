@@ -1,0 +1,23 @@
+/* Contact.css */
+
+.contact-me {
+  max-width: 600px;
+  margin: auto;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.contact-me h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.contact-form .form-control {
+  border-radius: 5px;
+}
+
+.contact-form .btn-primary {
+  width: 100%;
+  border-radius: 5px;
+}

@@ -4,6 +4,8 @@ import Education from './components/Education.js';
 import Experience from './components/Experience.js';
 import Projects from './components/Projects.js';
 import Skills from './components/Skills.js';
+import Contact from './components/Contact.js';
+import Footer from './components/Footer.js';
 import './App.css';
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
         <Experience />
         <Projects />
         <Skills />
+        <Contact />
+        <Footer />
       </div>
     </div>
   );

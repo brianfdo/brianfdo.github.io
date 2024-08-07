@@ -37,9 +37,13 @@
   }
 }
 
-body {
-  padding-top: 70px; /* Adjust according to navbar height */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
+
 
 h2 {
   margin-top: 20px;

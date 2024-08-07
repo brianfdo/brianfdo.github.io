@@ -1,22 +1,62 @@
 import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Link } from 'react-scroll';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './Navbar.css';
 
-function CustomNavbar() {
+function Navbar() {
   return (
-    <Navbar bg="dark" variant="dark" fixed="top" expand="lg">
-      <Navbar.Brand href="#">My Portfolio</Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
-          <Nav.Link href="#education">Education</Nav.Link>
-          <Nav.Link href="#experience">Experience</Nav.Link>
-          <Nav.Link href="#projects">Projects</Nav.Link>
-          <Nav.Link href="#skills">Skills</Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
+    <div className="top-card container shadow-lg p-4 my-5">
+      <h1 className="text-center mb-4">Brian Fernando</h1>
+      <div className="d-flex justify-content-center">
+        <ul className="nav">
+          <li className="nav-item mx-2">
+            <Link 
+              className="nav-link" 
+              to="education" 
+              smooth={true} 
+              duration={500}
+            >
+              Education
+            </Link>
+          </li>
+          <li className="nav-item mx-2">
+            <Link 
+              className="nav-link" 
+              to="experience" 
+              smooth={true} 
+              duration={500}
+            >
+              Experience
+            </Link>
+          </li>
+          <li className="nav-item mx-2">
+            <Link 
+              className="nav-link" 
+              to="projects" 
+              smooth={true} 
+              duration={500}
+            >
+              Projects
+            </Link>
+          </li>
+          <li className="nav-item mx-2">
+            <Link 
+              className="nav-link" 
+              to="skills" 
+              smooth={true} 
+              duration={500}
+            >
+              Skills
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </div>
   );
 }
 
-export default CustomNavbar;
+export default Navbar;
+
+
+
 
