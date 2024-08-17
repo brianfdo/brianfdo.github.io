@@ -1,34 +1,49 @@
 .skills-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    font-family: Ubuntu-Medium;
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0px;
+  font-family: Ubuntu-Medium;
+}
+
+.skill-card {
+  width: 100%;  /* Adjust to your preferred width */
+  max-width: 500px;  /* Ensure maximum width */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+
+.skill-card img {
+  width: auto;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.skill-card h5 {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.skill-card p {
+  font-size: 17px;
+  color: #666;
+}
+
+.cool-font {
+  font-family: Ubuntu-Medium;
+  font-size: 2.5rem;
+}
+
+.dev-tool-img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
   .skill-card {
-    width: 2000px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 100%; /* Stack cards on small screens */
   }
-  
-  .skill-card img {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 10px;
-  }
-  
-  .skill-card h5 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-  }
-  
-  .skill-card p {
-    font-size: 14px;
-    color: #666;
-  }
-  
-  .cool-font {
-    font-family: Ubuntu-Medium;
-    font-size: 2.5rem;
-  }
+}
