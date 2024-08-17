@@ -2,7 +2,7 @@ import React from 'react';
 
 function Projects() {
   return (
-    <section id="projects" className="my-5">
+    <section id="projects" className="my-5 p-2">
       <h2>Projects</h2>
       <hr />
       <div>

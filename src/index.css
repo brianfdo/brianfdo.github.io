@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Circular';
+  src: local('Circular'), url(./fonts/lineto-circular-black.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu-Medium';
+  src: local('Circular'), url(./fonts/Ubuntu-Medium.ttf) format('truetype');
+}

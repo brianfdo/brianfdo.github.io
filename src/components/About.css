@@ -1,0 +1,26 @@
+.about-image {
+    border-radius: 30px;
+    max-width: 150%; /* Expands the image */
+    height: auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.about-text {
+    font-family: Ubuntu-Medium;
+    text-align: left;
+    margin-left: 22%; /* Shifts the text box to the right */
+    z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .about-text {
+        margin-left: 0; /* Resets the margin on smaller screens */
+        text-align: center;
+    }
+
+    .about-image {
+        max-width: 100%; /* Resets image size on smaller screens */
+        margin-bottom: 20px;
+    }
+}

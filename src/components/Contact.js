@@ -39,8 +39,8 @@ function Contact() {
   };
 
   return (
-    <div id="contact" className="container my-5">
-      <div className="card shadow-lg mx-auto" style={{ maxWidth: '600px' }}>
+    <div id="contact" className=" contact-me container my-5">
+      <div className="card shadow mx-auto" style={{ maxWidth: '800px' }}>
         <div className="card-body">
           <h2 className="card-title text-center mb-4">Contact Me</h2>
           <form onSubmit={handleSubmit} className="contact-form">
@@ -88,7 +88,7 @@ function Contact() {
                 onChange={handleChange}
               ></textarea>
             </div>
-            <button type="submit" className="btn btn-primary w-100">Send Message</button>
+            <button type="submit" className="btn btn-primary mb-1 w-100">Send Message</button>
           </form>
         </div>
       </div>
