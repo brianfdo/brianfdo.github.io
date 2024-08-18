@@ -2,7 +2,7 @@ import React from 'react';
 import { FaGithub, FaLinkedin, FaEnvelope, FaSpotify } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Welcome.css';
+import './styles/Welcome.css';
 
 const Welcome = () => {
   return (

@@ -7,8 +7,8 @@
 }
 
 .skill-card {
-  width: 100%;  /* Adjust to your preferred width */
-  max-width: 500px;  /* Ensure maximum width */
+  width: 100%;
+  max-width: 500px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 20px;
@@ -44,6 +44,6 @@
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .skill-card {
-      width: 100%; /* Stack cards on small screens */
+      width: 100%;
   }
 }

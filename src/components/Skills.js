@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Skills.css';
+import './styles/Skills.css';
 
 const devTools = [
   { name: 'scikit-learn', img: 'https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg' },
@@ -42,7 +42,8 @@ function Skills() {
     <div id="skills" className="container my-5 p-3">
       <h2 className="text-center cool-font mb-4">Skills</h2>
       <div className="row justify-content-center">
-        {/* Programming Languages Card */}
+
+        
         <div className="col-md-6 d-flex justify-content-center">
           <div className="card shadow skill-card mx-4">
             <div className="card-body">
@@ -70,7 +71,6 @@ function Skills() {
           </div>
         </div>
 
-        {/* Dev Tools Card */}
         <div className="col-md-6 d-flex justify-content-center">
           <div className="card shadow skill-card mx-4">
             <div className="card-body">
@@ -96,4 +96,3 @@ function Skills() {
 }
 
 export default Skills;
-

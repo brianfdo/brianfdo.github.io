@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Navbar.css';
+import './styles/Navbar.css';
 
 function Navbar() {
   return (

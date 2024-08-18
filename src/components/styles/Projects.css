@@ -1,0 +1,39 @@
+.project-card {
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-img {
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-details {
+    text-align: left;
+    font-family: Ubuntu-Medium;
+  }
+  
+  .project-title {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+    font-family: Ubuntu-Medium;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    /* font-family: Ubuntu-Medium; */
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    font-family: Ubuntu-Medium;
+    color: #666;
+  }
+  
+  .cool-font {
+    font-family: Ubuntu-Medium;
+    font-size: 2.5rem;
+  }
+  
