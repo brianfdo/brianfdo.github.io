@@ -14,7 +14,7 @@
     border: 5px solid #99aed1;
     margin-bottom: 5px;
     perspective: 1000px;
-    transition: transform 2.6s ease; /* Add transition for smooth rotation */
+    transition: transform 2.6s ease;
     transform-style: preserve-3d;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .welcome-image-container:hover {
-    transform: rotateY(360deg); /* Rotate on hover */
+    transform: rotateY(360deg);
 }
 
 .card {

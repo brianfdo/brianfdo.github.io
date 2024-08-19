@@ -3,24 +3,24 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/Skills.css';
 
 const devTools = [
-  { name: 'scikit-learn', img: 'https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg' },
-  { name: 'TensorFlow', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6iQyYphUHhLEUchqyhIwsRMe0G9aqVFjUaA&s' },
-  { name: 'PyTorch', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTABCjpuMscLQRv3Qn612CuXy7wBF23Xs9AOQ&s' },
-  { name: 'Docker', img: 'https://cdn-icons-png.flaticon.com/512/919/919853.png' },
-  { name: 'Kubernetes', img: 'https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg' },
-  { name: 'Snowflake', img: 'https://avatars.githubusercontent.com/u/6453780?s=280&v=4' },
-  { name: 'Spark', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Apache_Spark_logo.svg/250px-Apache_Spark_logo.svg.png' },
-  { name: 'MLflow', img: 'https://miro.medium.com/v2/resize:fit:1056/0*5Hubk4Nwe7BdQS2D' },
-  { name: 'Databricks', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Databricks_Logo.png/800px-Databricks_Logo.png'},
-  { name: 'Tableau', img: 'https://miro.medium.com/v2/resize:fit:700/1*P5bCzSH734DlqTXXpwLm_Q.png' },
-  { name: 'GeoPandas', img: 'https://geopandas.org/en/latest/_images/geopandas_icon.png' },
-  { name: 'Folium', img: 'https://python-visualization.github.io/folium/latest/_static/folium_logo.png' },
-  { name: 'OpenCV', img: 'https://res.cloudinary.com/practicaldev/image/fetch/s--tcMWlo3q--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://cdn.hashnode.com/res/hashnode/image/upload/v1618654038257/tM_8qo9Gt.jpeg' },
-  { name: 'MongoDB', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR74RF-PpTllXRP5J2TKWM_1BoKFw9fggC_mw&s' },
-  { name: 'Selenium', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Selenium_Logo.png/1200px-Selenium_Logo.png'},
-  { name: 'Flask', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmD38KsMgEwahtWc_Nfs5ZVktP9dBc36MUZA&s' },
-  { name: 'React', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyp7FFYRwNKbTumOgu4zGIJOQpv8y0ngkLHw&s' },
-  { name: 'Node.js', img: 'https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg' }
+  { name: 'scikit-learn', img: './images/Scikit_learn_logo_small.svg' },
+  { name: 'TensorFlow', img: './images/tensorflow.png' },
+  { name: 'PyTorch', img: './images/Pytorch.png' },
+  { name: 'Docker', img: './images/docker.png' },
+  { name: 'Kubernetes', img: './images/Kubernetes_logo_without_workmark.svg' },
+  { name: 'Snowflake', img: './images/Snowflake.png' },
+  { name: 'Spark', img: './images/Apache_Spark_logo.svg.png' },
+  { name: 'MLflow', img: './images/mlflow.png' },
+  { name: 'Databricks', img: './images/Databricks_Logo.png'},
+  { name: 'Tableau', img: './images/Tableau.png' },
+  { name: 'GeoPandas', img: './images/geopandas_icon.webp' },
+  { name: 'Folium', img: './images/folium_logo.png' },
+  { name: 'OpenCV', img: './images/OpenCV.jpeg' },
+  { name: 'MongoDB', img: './images/mongoDB_icon.jpeg' },
+  { name: 'Selenium', img: './images/1200px-Selenium_Logo.png'},
+  { name: 'Flask', img: './images/Flask.png' },
+  { name: 'React', img: './images/React.png' },
+  { name: 'Node.js', img: './images/Node.js_logo.svg' }
 ];
 
 const languages = [

@@ -43,7 +43,7 @@ function Navbar() {
           <li className="nav-item mx-2">
             <a 
               className="nav-link" 
-              href="https://drive.google.com/file/d/1k956jTjXa-YngLx2HG-xT0ebdJnLR4SK/view?usp=sharing" 
+              href="https://drive.google.com/file/d/1SHnqVuU5vKWhrKRmXPR6D_cYeT1sSeuo/view?usp=sharing" 
             >
               Resume
             </a>

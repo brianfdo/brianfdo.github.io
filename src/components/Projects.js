@@ -4,7 +4,7 @@ import './styles/Projects.css'
 const projectsData = [
   {
     name: 'Music Recommender System',
-    img: 'https://github.com/brianfdo/recommender_system/raw/main/images/recommendations.png?raw=true',
+    img: 'images/recommendations.png',
     description: "A full stack web application that provides personalized music recommendations based on users' Spotify listening data. It leverages the Spotify API to fetch user data, utilizes a content-based filtering model to generate recommendations, and presents the information through a responsive UI built with React.",
     languages: ['Python', 'JavaScript', 'HTML/CSS'],
     frameworks: ['React', 'Express', 'Node.js', 'Flask', 'scikit-learn'],
@@ -28,6 +28,15 @@ const projectsData = [
     frameworks: ['Lex', 'Yacc'],
   }, 
   {
+    name: 'Face Mask Mandator',
+    img: '/images/mask.png',
+    description: 'An application that automatically detects whether a person is wearing a mask or not in real-time video streams through computer vision. This project was made in effort to enforce mask-wearing policies on individuals during the COVID-19 pandemic.',
+    languages: ['Python'],
+    frameworks: ['OpenCV', 'Keras', 'TensorFlow', 'scikit-learn'],
+    github: 'https://github.com/brianfdo/mask-detector',
+    link: 'View on Github'
+  }, 
+  {
     name: 'NBA Player Analysis',
     img: '/images/NBA_PCA.png',
     description: 'This project analyzes and clusters NBA players into specific roles to help understand player archetypes and team strengths/weaknesses. Futhermore, models were developed to predict standout players in an effort to predict the winners of NBA awards such as MVP, ROTY, DPOY, and CPOY. In addition, a custom high-level metric was created using SVM to evaluate the performance of a player.',
@@ -38,7 +47,7 @@ const projectsData = [
   {
     name: 'Screen Time Chrome Web Extension',
     img: '/images/screen_time.jpg',
-    description: "This chrome web extension tracks when a user opens a new tab, when a tab changes to a different website, and how long a certain site is onscreen to provide a summary of the user's screen time habits. Namely, the chrome web extension displays the user's top 5 visited websites and the time spent on each of them. This way, the user can be conscious of their productivity/lack thereof and improve on it.",
+    description: "A chrome web extension that tracks when a user opens a new tab, when a tab changes to a different website, and how long a certain site is onscreen to provide a summary of the user's screen time habits. Namely, the chrome web extension displays the user's top 5 visited websites and the time spent on each of them. This way, the user can be conscious of their productivity/lack thereof and improve on it.",
     languages: ['JavaScript', 'HTML/CSS'],
     frameworks: ['Chart.js', 'Firebase'],
     github: 'https://github.com/ishaanzaveri/ChromeScreenTime',
@@ -46,7 +55,7 @@ const projectsData = [
   },
   {
     name: 'IronHacks COVID-19 Data Science Hackathon Winner',
-    img: 'https://www.nfid.org/wp-content/uploads/2023/03/Coronavirus.png',
+    img: '/images/Coronavirus.png',
     description: 'Using real-time time series data over the course of Spring-Summer 2021, I developed an accurate machine learning model to predict the weekly foot traffic at restaurants (and other places of interest) in Marion and Tippecanoe County, Indiana. The resulting predictions and insights generated from the model were used to inform citizens as well as the State of Indiana, the Protect Purdue team, and the City of Lafayette about the impact of COVID-19.',
     languages: ['Python', 'R', 'SQL'],
     frameworks: ['numpy', 'pandas', 'statsmodels', 'scikit-learn', 'BigQuery'],
