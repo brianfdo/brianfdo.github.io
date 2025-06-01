@@ -15,6 +15,9 @@ const About = () => {
     '../images/hiking6.jpeg',
     '../images/hiking7.jpeg',
     '../images/hiking8.jpeg',
+    '../images/hiking9.jpeg',
+    '../images/hiking10.jpeg',
+    '../images/hiking11.jpeg',
   ];
 
   return (
@@ -38,10 +41,12 @@ const About = () => {
         <div className="col-md-5 about-text">
           <h2>About Me</h2>
           <p>
-            Currently, I am pursuing my Master's in Statistics at the University of California, Berkeley. I completed my undergraduate studies at Purdue University, where I earned a BS in Computer Science, Data Science, and Applied Statistics.
+            Currently, I am pursuing my Master's in Statistics at the University of California, Berkeley. I completed my undergraduate studies at Purdue University, where I attained a BS in Computer Science, Data Science, and Applied Statistics.
           </p>
           <p>
-            I am passionate about working in the realm of data, where I can leverage AI/ML to solve complex problems and extract meaningful insights. My goal is to create impactful solutions that drive innovation within data science and beyond.
+            I am passionate about working in the realm of data, where I can leverage AI/ML to solve complex problems and extract meaningful insights. My goal is to build robust and efficient systems that contribute to innovation in real-world ML deployment.
+
+
           </p>
           <p>
             Beyond my academic pursuits, I enjoy hiking, skiing, playing tennis, and fulfilling my adventurous spirit outdoors. I am working towards my personal goal of visiting every national park in the US!
